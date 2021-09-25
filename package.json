@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "axios": "^0.21.4",
+    "express": "^4.17.1",
+    "just-random": "^2.1.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "emojis",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
