@@ -1,8 +1,12 @@
 const express = require('express')
-const app = express()
 const ec2Meta = require('./ec2Meta')
 const emojis = require('./emojis.json')
 const random = require('just-random')
+const morgan = require("morgan")
+
+const app = express()
+
+app.use(morgan(":method :url :status :res[content-length] - :response-time ms"))
 
 app.get("/", (req, res) => {
   res.send(random(emojis).emoji)  
