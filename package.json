@@ -6,12 +6,25 @@
     "morgan": "^1.10.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "local": "npx nodemon server.js"
   },
   "name": "emojis",
   "version": "1.0.0",
   "main": "server.js",
   "author": "",
   "license": "ISC",
-  "description": ""
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sam-Meech-Ward/emojis.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Sam-Meech-Ward/emojis/issues"
+  },
+  "homepage": "https://github.com/Sam-Meech-Ward/emojis#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
 }
